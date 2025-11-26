@@ -80,6 +80,7 @@ int main() { // main (brain)
 					 }
 					 else {
 						 getInput(x, y, value);
+						 
 						 if (cheaker(board, x, y, value)) {
 							 board[x][y] = value;
 							 score += 5;
@@ -89,7 +90,6 @@ int main() { // main (brain)
 							 
 						 }
 						 else {
-							
 							 
 							 score -= 5;
 							 cout << BLUE << "\nscore = " << score << RESET;
@@ -190,17 +190,18 @@ bool cheaker(int board[9][9], int x, int y, int value) { // it will cheacks if u
 	//check to make sure value is valid
 	if (value <= 0 || value>9) {
 		rule = false;
-		return false;
+	
 	}
 
 	//check row, coloumn and grid
 	if (!isValid(board, x, y, value)) {
 		rule = false;
-		return false;
+		
 	}
 
 	if(!rule) {
 		cout << RED << "Invalid move! The move is not acoording to SUDOKO rules." <<RESET<< endl;
+		return false;
 	}
 
 	return true;
