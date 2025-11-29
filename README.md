@@ -20,12 +20,9 @@ to start, it says what you want to do
 If you enter 3 game will exit, if you enter 2 full solution will be shown, but the solution costs 20 score so you should have
 enough score. if you enter 1 again the programm will ask if you want any hint enter 1 else enter any enter, if you enter 1
 the hint will be shown but hint also costs 10 score so you must have enough score, beside that if you enter any other number
-the progrmm will ask for the ibnput the Row, the Coloumn, the Value you want to enter, then the value will be checked if it
+the progrmm will ask for the input the Row, the Coloumn, the Value you want to enter, then the value will be checked if it
 is valid accoding to gthe rules then it will be accepted and again same process wil start , the right input will increase the 
 score by 5 , but if the input is wrong the score will be decreadsed by 5. The game ends if either you win or your score becomes zero.
 
-## AI  Tool Reflection
-
-## 
 
 
