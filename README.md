@@ -7,4 +7,6 @@
 |Mohsin Abbas |540316 |1. Programmer 2. Git Manager |
 
 ## Overview
-This project provides a complete solution for playing and analyzing Sudoku puzzles. It features a fully functional game interface, a robust checker for validating board states, and an efficient solver capable of solving any valid 9x9 Sudoku puzzle.
+The goal of this project was to create a fully functional, console-based implementation of the classic 9x9 Sudoku puzzle. The program must be capable of generating a solvable puzzle, managing player input, providing real-time validation of moves against Sudoku rules, and maintaining a score based on performance. This project serves as a real-world relevant application of data structures (2D arrays) and recursive algorithms (backtracking).
+
+## Program Design / Logic
